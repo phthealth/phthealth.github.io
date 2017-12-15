@@ -1,35 +1,26 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Providence Health Technologies</title>
-		<style type="text/css">
-			.aligner {
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				font-family: sans-serif;
-				font-weight: bold;
-				color: darkgray;
-			}
-			
-			.aligner-item {
-				max-width: 50%;
-			}
-			
-			.aligner-item-top {
-				align-self: flex-start;
-			}
-			
-			.aligner-item-bottom {
-				align-self: flex-end;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="aligner">
-			<div class="aligner-item aligner-item-top">&nbsp;</div>
-			<div class="aligner-item">Providence Health Technologies</div>
-			<div class="aligner-item aligner-item-bottom">&nbsp;</div>
-		</div>
-	</body>
+<head>
+<title>Providence Health Technologies</title>
+<style type="text/css">
+.main {
+	position: relative;
+}
+
+.inner {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	font-weight: bold;
+	color: darkgray;
+}
+</style>
+</head>
+<body>
+	<div class="main">
+		<div class="inner">Providence Health Technologies</div>
+	</div>
+</body>
 </html>
